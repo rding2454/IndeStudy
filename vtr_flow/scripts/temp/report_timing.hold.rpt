@@ -1,0 +1,2180 @@
+#Timing report of worst 100 path(s)
+# Unit scale: 1e-09 seconds
+# Output precision: 3
+
+#Path 1
+Startpoint: top^cmd~0_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^cmd~0_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^cmd~0_FF_NODE.clk[0] (.latch)                                0.000     0.000
+top^cmd~0_FF_NODE.Q[0] (.latch) [clock-to-output]                0.124     0.124
+n149_1.in[3] (.names)                                            0.000     0.124
+n149_1.out[0] (.names)                                           0.235     0.359
+top^cmd~0_FF_NODE.D[0] (.latch)                                  0.000     0.359
+data arrival time                                                          0.359
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^cmd~0_FF_NODE.clk[0] (.latch)                                0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.359
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.293
+
+
+#Path 2
+Startpoint: top^text_o~22_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~22.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~22_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~22_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~22.outpad[0] (.output)                            0.190     0.314
+data arrival time                                                          0.314
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.314
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.314
+
+
+#Path 3
+Startpoint: top^read_counter~0_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^read_counter~0_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^read_counter~0_FF_NODE.clk[0] (.latch)                       0.000     0.000
+top^read_counter~0_FF_NODE.Q[0] (.latch) [clock-to-output]       0.124     0.124
+n154_1.in[2] (.names)                                            0.000     0.124
+n154_1.out[0] (.names)                                           0.261     0.385
+top^read_counter~0_FF_NODE.D[0] (.latch)                         0.000     0.385
+data arrival time                                                          0.385
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^read_counter~0_FF_NODE.clk[0] (.latch)                       0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.385
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.319
+
+
+#Path 4
+Startpoint: top^text_o~28_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~28.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~28_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~28_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~28.outpad[0] (.output)                            0.215     0.339
+data arrival time                                                          0.339
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.339
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.339
+
+
+#Path 5
+Startpoint: top^text_o~0_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~0.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~0_FF_NODE.clk[0] (.latch)                             0.000     0.000
+top^text_o~0_FF_NODE.Q[0] (.latch) [clock-to-output]             0.124     0.124
+out:top^text_o~0.outpad[0] (.output)                             0.216     0.340
+data arrival time                                                          0.340
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.340
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.340
+
+
+#Path 6
+Startpoint: top^text_o~26_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~26.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~26_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~26_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~26.outpad[0] (.output)                            0.246     0.370
+data arrival time                                                          0.370
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.370
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.370
+
+
+#Path 7
+Startpoint: top^text_o~6_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~6.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~6_FF_NODE.clk[0] (.latch)                             0.000     0.000
+top^text_o~6_FF_NODE.Q[0] (.latch) [clock-to-output]             0.124     0.124
+out:top^text_o~6.outpad[0] (.output)                             0.288     0.412
+data arrival time                                                          0.412
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.412
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.412
+
+
+#Path 8
+Startpoint: top^text_o~9_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~9.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~9_FF_NODE.clk[0] (.latch)                             0.000     0.000
+top^text_o~9_FF_NODE.Q[0] (.latch) [clock-to-output]             0.124     0.124
+out:top^text_o~9.outpad[0] (.output)                             0.291     0.415
+data arrival time                                                          0.415
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.415
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.415
+
+
+#Path 9
+Startpoint: top^text_o~16_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~16.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~16_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~16_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~16.outpad[0] (.output)                            0.294     0.418
+data arrival time                                                          0.418
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.418
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.418
+
+
+#Path 10
+Startpoint: top^text_o~3_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~3.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~3_FF_NODE.clk[0] (.latch)                             0.000     0.000
+top^text_o~3_FF_NODE.Q[0] (.latch) [clock-to-output]             0.124     0.124
+out:top^text_o~3.outpad[0] (.output)                             0.361     0.485
+data arrival time                                                          0.485
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.485
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.485
+
+
+#Path 11
+Startpoint: top^H2~28_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^C~28_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^H2~28_FF_NODE.clk[0] (.latch)                                0.000     0.000
+top^H2~28_FF_NODE.Q[0] (.latch) [clock-to-output]                0.124     0.124
+n639_1.in[2] (.names)                                            0.170     0.294
+n639_1.out[0] (.names)                                           0.261     0.555
+top^C~28_FF_NODE.D[0] (.latch)                                   0.000     0.555
+data arrival time                                                          0.555
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^C~28_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.555
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.489
+
+
+#Path 12
+Startpoint: top^round~6_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^Kt~15_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^round~6_FF_NODE.clk[0] (.latch)                              0.000     0.000
+top^round~6_FF_NODE.Q[0] (.latch) [clock-to-output]              0.124     0.124
+n4574_1.in[2] (.names)                                           0.216     0.340
+n4574_1.out[0] (.names)                                          0.235     0.575
+top^Kt~15_FF_NODE.D[0] (.latch)                                  0.000     0.575
+data arrival time                                                          0.575
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^Kt~15_FF_NODE.clk[0] (.latch)                                0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.575
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.509
+
+
+#Path 13
+Startpoint: top^H2~17_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^C~17_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^H2~17_FF_NODE.clk[0] (.latch)                                0.000     0.000
+top^H2~17_FF_NODE.Q[0] (.latch) [clock-to-output]                0.124     0.124
+n1079_1.in[2] (.names)                                           0.215     0.339
+n1079_1.out[0] (.names)                                          0.261     0.600
+top^C~17_FF_NODE.D[0] (.latch)                                   0.000     0.600
+data arrival time                                                          0.600
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^C~17_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.600
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.534
+
+
+#Path 14
+Startpoint: top^round~6_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^Kt~3_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^round~6_FF_NODE.clk[0] (.latch)                              0.000     0.000
+top^round~6_FF_NODE.Q[0] (.latch) [clock-to-output]              0.124     0.124
+n4654_1.in[5] (.names)                                           0.216     0.340
+n4654_1.out[0] (.names)                                          0.261     0.601
+top^Kt~3_FF_NODE.D[0] (.latch)                                   0.000     0.601
+data arrival time                                                          0.601
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^Kt~3_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.601
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.535
+
+
+#Path 15
+Startpoint: top^text_o~30_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~30.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~30_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~30_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~30.outpad[0] (.output)                            0.424     0.548
+data arrival time                                                          0.548
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.548
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.548
+
+
+#Path 16
+Startpoint: top^text_o~12_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~12.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~12_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~12_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~12.outpad[0] (.output)                            0.425     0.549
+data arrival time                                                          0.549
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.549
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.549
+
+
+#Path 17
+Startpoint: top^text_o~2_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~2.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~2_FF_NODE.clk[0] (.latch)                             0.000     0.000
+top^text_o~2_FF_NODE.Q[0] (.latch) [clock-to-output]             0.124     0.124
+out:top^text_o~2.outpad[0] (.output)                             0.429     0.553
+data arrival time                                                          0.553
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.553
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.553
+
+
+#Path 18
+Startpoint: top^A~10_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^A~10_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^A~10_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+top^A~10_FF_NODE.Q[0] (.latch) [clock-to-output]                 0.124     0.124
+n3034.in[0] (.names)                                             0.000     0.124
+n3034.out[0] (.names)                                            0.235     0.359
+n344_1.in[5] (.names)                                            0.000     0.359
+n344_1.out[0] (.names)                                           0.261     0.620
+top^A~10_FF_NODE.D[0] (.latch)                                   0.000     0.620
+data arrival time                                                          0.620
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^A~10_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.620
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.554
+
+
+#Path 19
+Startpoint: top^text_o~23_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~23.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~23_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~23_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~23.outpad[0] (.output)                            0.432     0.556
+data arrival time                                                          0.556
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.556
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.556
+
+
+#Path 20
+Startpoint: top^text_o~1_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~1.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~1_FF_NODE.clk[0] (.latch)                             0.000     0.000
+top^text_o~1_FF_NODE.Q[0] (.latch) [clock-to-output]             0.124     0.124
+out:top^text_o~1.outpad[0] (.output)                             0.432     0.556
+data arrival time                                                          0.556
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.556
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.556
+
+
+#Path 21
+Startpoint: top^text_o~20_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~20.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~20_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~20_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~20.outpad[0] (.output)                            0.434     0.558
+data arrival time                                                          0.558
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.558
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.558
+
+
+#Path 22
+Startpoint: top^text_o~25_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~25.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~25_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~25_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~25.outpad[0] (.output)                            0.434     0.558
+data arrival time                                                          0.558
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.558
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.558
+
+
+#Path 23
+Startpoint: top^text_o~17_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~17.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~17_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~17_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~17.outpad[0] (.output)                            0.435     0.559
+data arrival time                                                          0.559
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.559
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.559
+
+
+#Path 24
+Startpoint: top^text_o~4_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~4.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~4_FF_NODE.clk[0] (.latch)                             0.000     0.000
+top^text_o~4_FF_NODE.Q[0] (.latch) [clock-to-output]             0.124     0.124
+out:top^text_o~4.outpad[0] (.output)                             0.435     0.559
+data arrival time                                                          0.559
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.559
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.559
+
+
+#Path 25
+Startpoint: top^text_o~8_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~8.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~8_FF_NODE.clk[0] (.latch)                             0.000     0.000
+top^text_o~8_FF_NODE.Q[0] (.latch) [clock-to-output]             0.124     0.124
+out:top^text_o~8.outpad[0] (.output)                             0.437     0.561
+data arrival time                                                          0.561
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.561
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.561
+
+
+#Path 26
+Startpoint: top^text_o~24_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~24.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~24_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~24_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~24.outpad[0] (.output)                            0.438     0.562
+data arrival time                                                          0.562
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.562
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.562
+
+
+#Path 27
+Startpoint: top^text_o~11_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~11.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~11_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~11_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~11.outpad[0] (.output)                            0.452     0.576
+data arrival time                                                          0.576
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.576
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.576
+
+
+#Path 28
+Startpoint: top^B~0_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^B~0_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^B~0_FF_NODE.clk[0] (.latch)                                  0.000     0.000
+top^B~0_FF_NODE.Q[0] (.latch) [clock-to-output]                  0.124     0.124
+n3916.in[1] (.names)                                             0.000     0.124
+n3916.out[0] (.names)                                            0.261     0.385
+n1924_1.in[5] (.names)                                           0.000     0.385
+n1924_1.out[0] (.names)                                          0.261     0.646
+top^B~0_FF_NODE.D[0] (.latch)                                    0.000     0.646
+data arrival time                                                          0.646
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^B~0_FF_NODE.clk[0] (.latch)                                  0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.646
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.580
+
+
+#Path 29
+Startpoint: top^text_o~14_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~14.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~14_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~14_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~14.outpad[0] (.output)                            0.461     0.585
+data arrival time                                                          0.585
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.585
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.585
+
+
+#Path 30
+Startpoint: top^text_o~5_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~5.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~5_FF_NODE.clk[0] (.latch)                             0.000     0.000
+top^text_o~5_FF_NODE.Q[0] (.latch) [clock-to-output]             0.124     0.124
+out:top^text_o~5.outpad[0] (.output)                             0.502     0.626
+data arrival time                                                          0.626
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.626
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.626
+
+
+#Path 31
+Startpoint: top^H1~26_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^B~26_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^H1~26_FF_NODE.clk[0] (.latch)                                0.000     0.000
+top^H1~26_FF_NODE.Q[0] (.latch) [clock-to-output]                0.124     0.124
+n804_1.in[2] (.names)                                            0.309     0.433
+n804_1.out[0] (.names)                                           0.261     0.694
+top^B~26_FF_NODE.D[0] (.latch)                                   0.000     0.694
+data arrival time                                                          0.694
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^B~26_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.694
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.628
+
+
+#Path 32
+Startpoint: top^text_o~21_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~21.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~21_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~21_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~21.outpad[0] (.output)                            0.510     0.634
+data arrival time                                                          0.634
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.634
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.634
+
+
+#Path 33
+Startpoint: top^C~12_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^D~12_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^C~12_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+top^C~12_FF_NODE.Q[0] (.latch) [clock-to-output]                 0.124     0.124
+n1294_1.in[1] (.names)                                           0.336     0.460
+n1294_1.out[0] (.names)                                          0.261     0.721
+top^D~12_FF_NODE.D[0] (.latch)                                   0.000     0.721
+data arrival time                                                          0.721
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^D~12_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.721
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.655
+
+
+#Path 34
+Startpoint: top^round~6_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^Kt~16_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^round~6_FF_NODE.clk[0] (.latch)                              0.000     0.000
+top^round~6_FF_NODE.Q[0] (.latch) [clock-to-output]              0.124     0.124
+n4579_2.in[5] (.names)                                           0.353     0.477
+n4579_2.out[0] (.names)                                          0.261     0.738
+top^Kt~16_FF_NODE.D[0] (.latch)                                  0.000     0.738
+data arrival time                                                          0.738
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^Kt~16_FF_NODE.clk[0] (.latch)                                0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.738
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.672
+
+
+#Path 35
+Startpoint: top^C~21_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^D~21_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^C~21_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+top^C~21_FF_NODE.Q[0] (.latch) [clock-to-output]                 0.124     0.124
+n914_1.in[1] (.names)                                            0.356     0.480
+n914_1.out[0] (.names)                                           0.261     0.741
+top^D~21_FF_NODE.D[0] (.latch)                                   0.000     0.741
+data arrival time                                                          0.741
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^D~21_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.741
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.675
+
+
+#Path 36
+Startpoint: top^text_o~31_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~31.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~31_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~31_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~31.outpad[0] (.output)                            0.551     0.675
+data arrival time                                                          0.675
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.675
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.675
+
+
+#Path 37
+Startpoint: top^H0~20_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^A~20_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^H0~20_FF_NODE.clk[0] (.latch)                                0.000     0.000
+top^H0~20_FF_NODE.Q[0] (.latch) [clock-to-output]                0.124     0.124
+n354_1.in[1] (.names)                                            0.357     0.481
+n354_1.out[0] (.names)                                           0.261     0.742
+top^A~20_FF_NODE.D[0] (.latch)                                   0.000     0.742
+data arrival time                                                          0.742
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^A~20_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.742
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.676
+
+
+#Path 38
+Startpoint: top^round~6_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^Kt~13_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^round~6_FF_NODE.clk[0] (.latch)                              0.000     0.000
+top^round~6_FF_NODE.Q[0] (.latch) [clock-to-output]              0.124     0.124
+n4564_1.in[5] (.names)                                           0.358     0.482
+n4564_1.out[0] (.names)                                          0.261     0.743
+top^Kt~13_FF_NODE.D[0] (.latch)                                  0.000     0.743
+data arrival time                                                          0.743
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^Kt~13_FF_NODE.clk[0] (.latch)                                0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.743
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.677
+
+
+#Path 39
+Startpoint: top^A~9_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^B~9_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^A~9_FF_NODE.clk[0] (.latch)                                  0.000     0.000
+top^A~9_FF_NODE.Q[0] (.latch) [clock-to-output]                  0.124     0.124
+n1399_1.in[1] (.names)                                           0.359     0.483
+n1399_1.out[0] (.names)                                          0.261     0.744
+top^B~9_FF_NODE.D[0] (.latch)                                    0.000     0.744
+data arrival time                                                          0.744
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^B~9_FF_NODE.clk[0] (.latch)                                  0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.744
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.678
+
+
+#Path 40
+Startpoint: top^C~17_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^D~17_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^C~17_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+top^C~17_FF_NODE.Q[0] (.latch) [clock-to-output]                 0.124     0.124
+n1089_1.in[1] (.names)                                           0.359     0.483
+n1089_1.out[0] (.names)                                          0.261     0.744
+top^D~17_FF_NODE.D[0] (.latch)                                   0.000     0.744
+data arrival time                                                          0.744
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^D~17_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.744
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.678
+
+
+#Path 41
+Startpoint: top^cmd~3_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^cmd_o~3.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^cmd~3_FF_NODE.clk[0] (.latch)                                0.000     0.000
+top^cmd~3_FF_NODE.Q[0] (.latch) [clock-to-output]                0.124     0.124
+out:top^cmd_o~3.outpad[0] (.output)                              0.586     0.710
+data arrival time                                                          0.710
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.710
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.710
+
+
+#Path 42
+Startpoint: top^text_o~19_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~19.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~19_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~19_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~19.outpad[0] (.output)                            0.595     0.719
+data arrival time                                                          0.719
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.719
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.719
+
+
+#Path 43
+Startpoint: top^text_o~15_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~15.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~15_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~15_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~15.outpad[0] (.output)                            0.648     0.772
+data arrival time                                                          0.772
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.772
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.772
+
+
+#Path 44
+Startpoint: top^round~5_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^Kt~28_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^round~5_FF_NODE.clk[0] (.latch)                              0.000     0.000
+top^round~5_FF_NODE.Q[0] (.latch) [clock-to-output]              0.124     0.124
+n4644_1.in[1] (.names)                                           0.488     0.612
+n4644_1.out[0] (.names)                                          0.235     0.847
+top^Kt~28_FF_NODE.D[0] (.latch)                                  0.000     0.847
+data arrival time                                                          0.847
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^Kt~28_FF_NODE.clk[0] (.latch)                                0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.847
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.781
+
+
+#Path 45
+Startpoint: top^round~6_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^Kt~31_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^round~6_FF_NODE.clk[0] (.latch)                              0.000     0.000
+top^round~6_FF_NODE.Q[0] (.latch) [clock-to-output]              0.124     0.124
+n4664_1.in[1] (.names)                                           0.491     0.615
+n4664_1.out[0] (.names)                                          0.235     0.850
+top^Kt~31_FF_NODE.D[0] (.latch)                                  0.000     0.850
+data arrival time                                                          0.850
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^Kt~31_FF_NODE.clk[0] (.latch)                                0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.850
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.784
+
+
+#Path 46
+Startpoint: top^round~5_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^Kt~17_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^round~5_FF_NODE.clk[0] (.latch)                              0.000     0.000
+top^round~5_FF_NODE.Q[0] (.latch) [clock-to-output]              0.124     0.124
+n4584_1.in[2] (.names)                                           0.499     0.623
+n4584_1.out[0] (.names)                                          0.235     0.858
+top^Kt~17_FF_NODE.D[0] (.latch)                                  0.000     0.858
+data arrival time                                                          0.858
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^Kt~17_FF_NODE.clk[0] (.latch)                                0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.858
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.792
+
+
+#Path 47
+Startpoint: top^round~3_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^Kt~1_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^round~3_FF_NODE.clk[0] (.latch)                              0.000     0.000
+top^round~3_FF_NODE.Q[0] (.latch) [clock-to-output]              0.124     0.124
+n4544_1.in[2] (.names)                                           0.476     0.600
+n4544_1.out[0] (.names)                                          0.261     0.861
+top^Kt~1_FF_NODE.D[0] (.latch)                                   0.000     0.861
+data arrival time                                                          0.861
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^Kt~1_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.861
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.795
+
+
+#Path 48
+Startpoint: top^round~6_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^Kt~22_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^round~6_FF_NODE.clk[0] (.latch)                              0.000     0.000
+top^round~6_FF_NODE.Q[0] (.latch) [clock-to-output]              0.124     0.124
+n4614_1.in[2] (.names)                                           0.502     0.626
+n4614_1.out[0] (.names)                                          0.235     0.861
+top^Kt~22_FF_NODE.D[0] (.latch)                                  0.000     0.861
+data arrival time                                                          0.861
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^Kt~22_FF_NODE.clk[0] (.latch)                                0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.861
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.795
+
+
+#Path 49
+Startpoint: top^H0~12_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^A~14_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^H0~12_FF_NODE.clk[0] (.latch)                                0.000     0.000
+top^H0~12_FF_NODE.Q[0] (.latch) [clock-to-output]                0.124     0.124
+n3088.in[0] (.names)                                             0.218     0.342
+n3088.out[0] (.names)                                            0.261     0.603
+n444_1.in[4] (.names)                                            0.000     0.603
+n444_1.out[0] (.names)                                           0.261     0.864
+top^A~14_FF_NODE.D[0] (.latch)                                   0.000     0.864
+data arrival time                                                          0.864
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^A~14_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.864
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.798
+
+
+#Path 50
+Startpoint: top^round~6_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^Kt~23_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^round~6_FF_NODE.clk[0] (.latch)                              0.000     0.000
+top^round~6_FF_NODE.Q[0] (.latch) [clock-to-output]              0.124     0.124
+n4619_2.in[1] (.names)                                           0.507     0.631
+n4619_2.out[0] (.names)                                          0.235     0.866
+top^Kt~23_FF_NODE.D[0] (.latch)                                  0.000     0.866
+data arrival time                                                          0.866
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^Kt~23_FF_NODE.clk[0] (.latch)                                0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.866
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.800
+
+
+#Path 51
+Startpoint: top^H0~4_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^A~4_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^H0~4_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+top^H0~4_FF_NODE.Q[0] (.latch) [clock-to-output]                 0.124     0.124
+n434_1.in[1] (.names)                                            0.500     0.624
+n434_1.out[0] (.names)                                           0.261     0.885
+top^A~4_FF_NODE.D[0] (.latch)                                    0.000     0.885
+data arrival time                                                          0.885
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^A~4_FF_NODE.clk[0] (.latch)                                  0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.885
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.819
+
+
+#Path 52
+Startpoint: top^rst_i.inpad[0] (.input clocked by top^clk_i)
+Endpoint  : top^round~6_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+top^rst_i.inpad[0] (.input)                                      0.000     0.000
+n4534_1.in[0] (.names)                                           0.626     0.626
+n4534_1.out[0] (.names)                                          0.261     0.887
+top^round~6_FF_NODE.D[0] (.latch)                                0.000     0.887
+data arrival time                                                          0.887
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^round~6_FF_NODE.clk[0] (.latch)                              0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.887
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.821
+
+
+#Path 53
+Startpoint: top^text_o~18_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~18.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~18_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~18_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~18.outpad[0] (.output)                            0.715     0.839
+data arrival time                                                          0.839
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.839
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.839
+
+
+#Path 54
+Startpoint: top^H1~26_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^B~27_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^H1~26_FF_NODE.clk[0] (.latch)                                0.000     0.000
+top^H1~26_FF_NODE.Q[0] (.latch) [clock-to-output]                0.124     0.124
+n3369.in[1] (.names)                                             0.309     0.433
+n3369.out[0] (.names)                                            0.235     0.668
+n499_1.in[4] (.names)                                            0.000     0.668
+n499_1.out[0] (.names)                                           0.261     0.929
+top^B~27_FF_NODE.D[0] (.latch)                                   0.000     0.929
+data arrival time                                                          0.929
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^B~27_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.929
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.863
+
+
+#Path 55
+Startpoint: top^text_o~13_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~13.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~13_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~13_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~13.outpad[0] (.output)                            0.767     0.891
+data arrival time                                                          0.891
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.891
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.891
+
+
+#Path 56
+Startpoint: top^H0~24_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^A~24_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^H0~24_FF_NODE.clk[0] (.latch)                                0.000     0.000
+top^H0~24_FF_NODE.Q[0] (.latch) [clock-to-output]                0.124     0.124
+n3342.in[0] (.names)                                             0.000     0.124
+n3342.out[0] (.names)                                            0.261     0.385
+n454_1.in[1] (.names)                                            0.347     0.732
+n454_1.out[0] (.names)                                           0.235     0.967
+top^A~24_FF_NODE.D[0] (.latch)                                   0.000     0.967
+data arrival time                                                          0.967
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^A~24_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.967
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.901
+
+
+#Path 57
+Startpoint: top^H0~27_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^A~27_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^H0~27_FF_NODE.clk[0] (.latch)                                0.000     0.000
+top^H0~27_FF_NODE.Q[0] (.latch) [clock-to-output]                0.124     0.124
+n3361.in[0] (.names)                                             0.352     0.476
+n3361.out[0] (.names)                                            0.261     0.737
+n489_1.in[1] (.names)                                            0.000     0.737
+n489_1.out[0] (.names)                                           0.235     0.972
+top^A~27_FF_NODE.D[0] (.latch)                                   0.000     0.972
+data arrival time                                                          0.972
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^A~27_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.972
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.906
+
+
+#Path 58
+Startpoint: top^H0~8_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^A~8_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^H0~8_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+top^H0~8_FF_NODE.Q[0] (.latch) [clock-to-output]                 0.124     0.124
+n3286.in[0] (.names)                                             0.000     0.124
+n3286.out[0] (.names)                                            0.261     0.385
+n374_1.in[1] (.names)                                            0.359     0.744
+n374_1.out[0] (.names)                                           0.235     0.979
+top^A~8_FF_NODE.D[0] (.latch)                                    0.000     0.979
+data arrival time                                                          0.979
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^A~8_FF_NODE.clk[0] (.latch)                                  0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.979
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.913
+
+
+#Path 59
+Startpoint: top^H0~16_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^A~16_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^H0~16_FF_NODE.clk[0] (.latch)                                0.000     0.000
+top^H0~16_FF_NODE.Q[0] (.latch) [clock-to-output]                0.124     0.124
+n3314.in[0] (.names)                                             0.000     0.124
+n3314.out[0] (.names)                                            0.261     0.385
+n414_1.in[1] (.names)                                            0.360     0.745
+n414_1.out[0] (.names)                                           0.235     0.980
+top^A~16_FF_NODE.D[0] (.latch)                                   0.000     0.980
+data arrival time                                                          0.980
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^A~16_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.980
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.914
+
+
+#Path 60
+Startpoint: top^rst_i.inpad[0] (.input clocked by top^clk_i)
+Endpoint  : top^Kt~25_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+top^rst_i.inpad[0] (.input)                                      0.000     0.000
+n4629_2.in[0] (.names)                                           0.790     0.790
+n4629_2.out[0] (.names)                                          0.235     1.025
+top^Kt~25_FF_NODE.D[0] (.latch)                                  0.000     1.025
+data arrival time                                                          1.025
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^Kt~25_FF_NODE.clk[0] (.latch)                                0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          1.025
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.959
+
+
+#Path 61
+Startpoint: top^cmd~1_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^cmd_o~1.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^cmd~1_FF_NODE.clk[0] (.latch)                                0.000     0.000
+top^cmd~1_FF_NODE.Q[0] (.latch) [clock-to-output]                0.124     0.124
+out:top^cmd_o~1.outpad[0] (.output)                              0.884     1.008
+data arrival time                                                          1.008
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          1.008
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.008
+
+
+#Path 62
+Startpoint: top^H0~26_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^A~26_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^H0~26_FF_NODE.clk[0] (.latch)                                0.000     0.000
+top^H0~26_FF_NODE.Q[0] (.latch) [clock-to-output]                0.124     0.124
+n3320.in[0] (.names)                                             0.000     0.124
+n3320.out[0] (.names)                                            0.261     0.385
+n424_1.in[1] (.names)                                            0.491     0.876
+n424_1.out[0] (.names)                                           0.235     1.111
+top^A~26_FF_NODE.D[0] (.latch)                                   0.000     1.111
+data arrival time                                                          1.111
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^A~26_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          1.111
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.045
+
+
+#Path 63
+Startpoint: top^cmd~0_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^cmd_o~0.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^cmd~0_FF_NODE.clk[0] (.latch)                                0.000     0.000
+top^cmd~0_FF_NODE.Q[0] (.latch) [clock-to-output]                0.124     0.124
+out:top^cmd_o~0.outpad[0] (.output)                              0.937     1.061
+data arrival time                                                          1.061
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          1.061
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.061
+
+
+#Path 64
+Startpoint: top^text_o~27_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~27.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~27_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~27_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~27.outpad[0] (.output)                            0.989     1.113
+data arrival time                                                          1.113
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          1.113
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.113
+
+
+#Path 65
+Startpoint: top^H0~25_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^A~25_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^H0~25_FF_NODE.clk[0] (.latch)                                0.000     0.000
+top^H0~25_FF_NODE.Q[0] (.latch) [clock-to-output]                0.124     0.124
+n3158.in[0] (.names)                                             0.501     0.625
+n3158.out[0] (.names)                                            0.261     0.886
+n359_1.in[1] (.names)                                            0.192     1.078
+n359_1.out[0] (.names)                                           0.235     1.313
+top^A~25_FF_NODE.D[0] (.latch)                                   0.000     1.313
+data arrival time                                                          1.313
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^A~25_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          1.313
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.247
+
+
+#Path 66
+Startpoint: top^H0~28_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^A~28_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^H0~28_FF_NODE.clk[0] (.latch)                                0.000     0.000
+top^H0~28_FF_NODE.Q[0] (.latch) [clock-to-output]                0.124     0.124
+n3299.in[0] (.names)                                             0.217     0.341
+n3299.out[0] (.names)                                            0.261     0.602
+n394_1.in[1] (.names)                                            0.496     1.098
+n394_1.out[0] (.names)                                           0.235     1.333
+top^A~28_FF_NODE.D[0] (.latch)                                   0.000     1.333
+data arrival time                                                          1.333
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^A~28_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          1.333
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.267
+
+
+#Path 67
+Startpoint: top^rst_i.inpad[0] (.input clocked by top^clk_i)
+Endpoint  : top^Kt~7_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+top^rst_i.inpad[0] (.input)                                      0.000     0.000
+n4684_1.in[0] (.names)                                           1.102     1.102
+n4684_1.out[0] (.names)                                          0.235     1.337
+top^Kt~7_FF_NODE.D[0] (.latch)                                   0.000     1.337
+data arrival time                                                          1.337
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^Kt~7_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          1.337
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.271
+
+
+#Path 68
+Startpoint: top^round~6_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^Kt~0_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^round~6_FF_NODE.clk[0] (.latch)                              0.000     0.000
+top^round~6_FF_NODE.Q[0] (.latch) [clock-to-output]              0.124     0.124
+n4539_2.in[1] (.names)                                           0.635     0.759
+n4539_2.out[0] (.names)                                          0.235     0.994
+top^Kt~0_FF_NODE.D[0] (.latch)                                   0.359     1.353
+data arrival time                                                          1.353
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^Kt~0_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          1.353
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.287
+
+
+#Path 69
+Startpoint: top^round~3_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^Kt~11_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^round~3_FF_NODE.clk[0] (.latch)                              0.000     0.000
+top^round~3_FF_NODE.Q[0] (.latch) [clock-to-output]              0.124     0.124
+n4554_1.in[2] (.names)                                           0.476     0.600
+n4554_1.out[0] (.names)                                          0.261     0.861
+top^Kt~11_FF_NODE.D[0] (.latch)                                  0.501     1.362
+data arrival time                                                          1.362
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^Kt~11_FF_NODE.clk[0] (.latch)                                0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          1.362
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.296
+
+
+#Path 70
+Startpoint: top^text_o~10_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^text_o~10.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^text_o~10_FF_NODE.clk[0] (.latch)                            0.000     0.000
+top^text_o~10_FF_NODE.Q[0] (.latch) [clock-to-output]            0.124     0.124
+out:top^text_o~10.outpad[0] (.output)                            1.186     1.310
+data arrival time                                                          1.310
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          1.310
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.310
+
+
+#Path 71
+Startpoint: top^rst_i.inpad[0] (.input clocked by top^clk_i)
+Endpoint  : top^A~22_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+top^rst_i.inpad[0] (.input)                                      0.000     0.000
+n484_1.in[0] (.names)                                            1.210     1.210
+n484_1.out[0] (.names)                                           0.235     1.445
+top^A~22_FF_NODE.D[0] (.latch)                                   0.000     1.445
+data arrival time                                                          1.445
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^A~22_FF_NODE.clk[0] (.latch)                                 0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          1.445
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.379
+
+
+#Path 72
+Startpoint: top^round~3_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : top^Kt~14_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^round~3_FF_NODE.clk[0] (.latch)                              0.000     0.000
+top^round~3_FF_NODE.Q[0] (.latch) [clock-to-output]              0.124     0.124
+n4569_2.in[2] (.names)                                           0.476     0.600
+n4569_2.out[0] (.names)                                          0.261     0.861
+top^Kt~14_FF_NODE.D[0] (.latch)                                  0.596     1.457
+data arrival time                                                          1.457
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^Kt~14_FF_NODE.clk[0] (.latch)                                0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          1.457
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.391
+
+
+#Path 73
+Startpoint: top^rst_i.inpad[0] (.input clocked by top^clk_i)
+Endpoint  : top^Kt~27_FF_NODE.D[0] (.latch clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+top^rst_i.inpad[0] (.input)                                      0.000     0.000
+n4639_2.in[0] (.names)                                           1.528     1.528
+n4639_2.out[0] (.names)                                          0.235     1.763
+top^Kt~27_FF_NODE.D[0] (.latch)                                  0.000     1.763
+data arrival time                                                          1.763
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^Kt~27_FF_NODE.clk[0] (.latch)                                0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          1.763
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.697
+
+
+#Path 74
+Startpoint: top^cmd~2_FF_NODE.Q[0] (.latch clocked by top^clk_i)
+Endpoint  : out:top^cmd_o~2.outpad[0] (.output clocked by top^clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+top^clk_i.inpad[0] (.input)                                      0.000     0.000
+top^cmd~2_FF_NODE.clk[0] (.latch)                                0.000     0.000
+top^cmd~2_FF_NODE.Q[0] (.latch) [clock-to-output]                0.124     0.124
+out:top^cmd_o~2.outpad[0] (.output)                              1.802     1.926
+data arrival time                                                          1.926
+
+clock top^clk_i (rise edge)                                      0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          1.926
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.926
+
+
+#End of timing report
